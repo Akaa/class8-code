@@ -30,7 +30,7 @@ public class PaintArea extends JPanel implements ActionListener, AdjustmentListe
 		lengthDisplay.setText(length+"");
 		thicknessDisplay.setText(thickness+"");
 
-		setBackground(new Color(15, 150, 200));
+		getRootPane().setBackground(new Color(15, 150, 200));
 	}
 
 	private void makeThicker() {
